@@ -1,0 +1,40 @@
+ 
+1)- LIST
+
+--> It is an ordered collection of items 
+--> We can store anything in lists be it of int, float , string datatype
+--> Ex. number=[1,2,3,4] 
+--> Lists are mutable i.e any changes made will change the original lists
+--> Slicing is present
+
+2)- DICTIONARY
+
+--> It is an unordered collections of data
+--> It is denoted as key:value pair
+--> We use dictionaries becausse of the limitations of lists, lists are not
+	enough to represent real data
+--> Ex. person={'name':'DEEPANSHU' , 'fav':12}
+
+3)- TUPLE
+
+--> We can store anything in tuples be it of int, float , string datatype
+--> Tuples are immutable, once created cannot be updated
+--> We use tuples when we know that data will not be changed
+--> It is faster than lists
+--> Ex. number=(1,2,3,4,5)
+
+4)- SETS
+
+--> It is an unordered collection of unique items
+--> It is basically used to remove redundancy
+--> It does not have key:value pair
+--> Ex. n={1,2,3,2}
+
+5)- STRING
+
+--> It is a collection of characters
+--> Many operations are performed on strings
+--> They are immutable
+-->	name="Asuma"
+
+    
