@@ -46,7 +46,7 @@ streams = vid.streams
 for i in streams:
     print(i)
 
-i = vid.streams.get_by_itag(input("Enter the itag number you see below for the preferred quality : "))
+i = vid.streams.get_by_itag(input("Enter the itag number of the quality that you want to download : "))
 
 
 file_size = i.filesize
